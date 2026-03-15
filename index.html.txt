@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Act - Educazione Civica</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <header>
+        <h1>🌐 L'AI Act dell'Unione Europea</h1>
+        <p>Regolamento per una IA sicura e non discriminatoria</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#intro">Introduzione</a></li>
+            <li><a href="#articolo">Articolo Principale</a></li>
+            <li><a href="#domande">Quiz AI Act</a></li>
+            <li><a href="#conclusioni">Conclusioni</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>Introduzione all'AI Act</h2>
+            <p>L'AI Act è il primo regolamento mondiale sull'Intelligenza Artificiale. Garantisce parità e protezione dei diritti in tutta l'UE.</p>
+            <img src="MEDIA/ai-act-logo.png" alt="Logo AI Act" class="immagine-principale">
+        </section>
+
+        <section id="articolo">
+            <h2>Articolo Chiave sull'Applicazione</h2>
+            <blockquote>
+                "Al fine di garantire condizioni di parità e una protezione efficace dei diritti e delle libertà delle persone in tutta l'Unione, è opportuno che le regole stabilite dal presente regolamento si applichino ai fornitori di sistemi di IA in modo non discriminatorio, a prescindere dal fatto che siano stabiliti nell'Unione o in un paese terzo, e ai deployer dei sistemi di IA stabiliti nell'Unione."
+            </blockquote>
+            <p><strong>Significato:</strong> L'AI Act vale per tutti, ovunque si trovino le aziende, se operano in UE.</p>
+        </section>
+
+        <section id="domande">
+            <h2>📝 Testa le tue conoscenze sull'AI Act</h2>
+            <form id="quizForm" action="risposte.php" method="POST">
+                <div class="domanda">
+                    <label>1. A chi si applica l'AI Act?</label>
+                    <select name="q1" required>
+                        <option value="">Scegli...</option>
+                        <option value="a">Solo aziende UE</option>
+                        <option value="b">Tutti i fornitori che operano in UE</option>
+                        <option value="c">Solo paesi extra-UE</option>
+                    </select>
+                </div>
+
+                <div class="domanda">
+                    <label>2. Qual è l'obiettivo principale?</label>
+                    <select name="q2" required>
+                        <option value="">Scegli...</option>
+                        <option value="a">Promuovere l'IA senza regole</option>
+                        <option value="b">Garantire parità e protezione diritti</option>
+                        <option value="c">Limitare l'IA completamente</option>
+                    </select>
+                </div>
+
+                <div class="domanda">
+                    <label>3. Cosa sono i "deployer"?</label>
+                    <input type="text" name="q3" placeholder="Rispondi..." required>
+                </div>
+
+                <button type="submit">Invia Risposte → risposte.php</button>
+            </form>
+        </section>
+
+        <section id="conclusioni">
+            <h2>Perché è importante per i cittadini?</h2>
+            <ul>
+                <li>Protezione da discriminazioni IA</li>
+                <li>Regole uguali per tutti</li>
+                <li>Diritti digitali garantiti</li>
+            </ul>
+            <video controls poster="MEDIA/ai-act-video.jpg" width="100%">
+                <source src="MEDIA/ai-act-intro.mp4" type="video/mp4">
+                Il tuo browser non supporta i video.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>Progetto Educazione Civica - [Il tuo cognome] - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
